@@ -6,12 +6,12 @@
   justify-content: space-around;
 }
 
-.skillHeader {
+.skill-header {
   text-align: center;
   margin-top: 60px;
 }
 
-.skillsContainer {
+.skill-container {
   display: flex;
   height: 80%;
   width: 70%;
@@ -33,7 +33,7 @@
   align-items: center;
 }
 
-.skillIcon {
+.skill-icon {
   height: 60%;
   max-height: 60px;
   margin: 15px;
@@ -44,7 +44,7 @@
     min-height: 800px;
   }
 
-  .skillsContainer {
+  .skill-container {
     max-height: 1200px;
     width: 90%;
   }

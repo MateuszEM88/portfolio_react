@@ -6,11 +6,11 @@ import cat from "../portfolio/1.jpeg";
 function Portfolio() {
   return (
     <div className="portfolio">
-      <div className="portfoliotHeader">
+      <div className="portfolio-header">
         <h1>Portfolio</h1>
         <p>my works</p>
       </div>
-      <div className="cardContainer">
+      <div className="card-container">
         <Card
           img={cat}
           title="Paczący Kot"

@@ -2,9 +2,13 @@
   width: 400px;
   height: 300px;
   border-radius: 5px;
+  overflow: hidden;
   background-color: white;
   text-align: center;
   margin: 30px 20px 60px 20px;
+  -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
 }
 
 .card-body {

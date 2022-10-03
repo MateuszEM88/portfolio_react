@@ -1,4 +1,4 @@
-.scrollIcon {
+.scroll-icon {
   position: fixed;
   width: 60px;
   left: 90%;
@@ -10,7 +10,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .scrollIcon {
+  .scroll-icon {
     left: 80%;
   }
 }

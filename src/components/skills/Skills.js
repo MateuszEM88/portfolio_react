@@ -12,41 +12,41 @@ import wordpress from "../skills/ico/wordpress.png";
 function Skills() {
   return (
     <div className="skills">
-      <div className="skillHeader">
+      <div className="skill-header">
         <h1>Skills and techologies</h1>
         <p>i'm using</p>
       </div>
-      <div className="skillsContainer">
+      <div className="skill-container">
         <div className="skill html">
-          <img src={html} alt="html icon" className="skillIcon" />
+          <img src={html} alt="html icon" className="skill-icon" />
           <h2>HTML</h2>
         </div>
         <div className="skill">
-          <img src={css} alt="css icon" className="skillIcon" />
+          <img src={css} alt="css icon" className="skill-icon" />
           <h2>CSS</h2>
         </div>
         <div className="skill">
-          <img src={sass} alt="sass icon" className="skillIcon" />
+          <img src={sass} alt="sass icon" className="skill-icon" />
           <h2>SASS</h2>
         </div>
         <div className="skill">
-          <img src={javascript} alt="javascript icon" className="skillIcon" />
+          <img src={javascript} alt="javascript icon" className="skill-icon" />
           <h2>JAVASCRIPT</h2>
         </div>
         <div className="skill">
-          <img src={react} alt="react icon" className="skillIcon" />
+          <img src={react} alt="react icon" className="skill-icon" />
           <h2>REACT</h2>
         </div>
         <div className="skill">
-          <img src={sql} alt="sql icon" className="skillIcon" />
+          <img src={sql} alt="sql icon" className="skill-icon" />
           <h2>SQL</h2>
         </div>
         <div className="skill">
-          <img src={wordpress} alt="wordpress icon" className="skillIcon" />
+          <img src={wordpress} alt="wordpress icon" className="skill-icon" />
           <h2>WORDPRESS</h2>
         </div>
         <div className="skill">
-          <img src={python} alt="python icon" className="skillIcon" />
+          <img src={python} alt="python icon" className="skill-icon" />
           <h2>PYTHON</h2>
         </div>
       </div>

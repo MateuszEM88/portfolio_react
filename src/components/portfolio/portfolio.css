@@ -6,13 +6,13 @@
   flex-direction: column;
 }
 
-.portfoliotHeader {
+.portfolio-header {
   margin-top: 60px;
   margin-bottom: 30px;
   text-align: center;
 }
 
-.cardContainer {
+.card-container {
   display: flex;
   height: 80%;
   width: 70%;
