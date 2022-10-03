@@ -9,10 +9,10 @@ import email from "../contact/ico/email.png";
 function Contact() {
   return (
     <div className="contact">
-      <div className="contactHeader">
+      <div className="contact-header">
         <h1>Contact</h1>
       </div>
-      <div className="containerContact">
+      <div className="contact-container">
         <div className="communication">
           <h1 className="commHeader">Links</h1>
           <div className="linksContainer">

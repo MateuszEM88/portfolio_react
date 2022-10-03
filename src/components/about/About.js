@@ -8,7 +8,7 @@ function About() {
         <h1>About Me.</h1>
         <p>brief introduction</p>
       </div>
-      <div className="aboutMe">
+      <div className="about-me">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
           laudantium quisquam repellendus vero veniam, fugit molestias non
