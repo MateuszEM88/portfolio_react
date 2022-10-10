@@ -1,6 +1,6 @@
 a {
   text-decoration: none;
-  color: black;
+  color: var(--text-light);
   cursor: pointer;
 }
 
@@ -8,10 +8,10 @@ a:hover {
   color: rgb(89, 83, 83);
 }
 
-.navContainer {
+.navigation-container {
   width: 100%;
   min-height: 60px;
-  color: black;
+  color: var(--text-light);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -28,13 +28,13 @@ nav {
   width: 15%;
 }
 
-.navItem {
+.navigation-item {
   display: inline;
   margin-right: 10px;
   font-weight: 600;
 }
 
-.hamburgerLogo {
+.hamburger-logo {
   color: white;
   display: flex;
   justify-content: space-between;
@@ -46,22 +46,13 @@ nav {
   padding: 5px;
 }
 
-.hamburgerIcon {
+.hamburger-icon {
   height: 65px;
   margin-right: 10px;
 }
 
-/* For extremely small screen devices (595px and below) */
-@media only screen and (max-width: 595px) {
-}
-
-/* Small screen devices (600px and above) */
-@media only screen and (min-width: 600px) {
-}
-
-/* Medium screen devices (768px and below) */
 @media only screen and (max-width: 1024px) {
-  .navContainer {
+  .navigation-container {
     min-height: 60px;
     flex-direction: column;
     background-color: black;
@@ -84,7 +75,7 @@ nav {
     height: 100%;
   }
 
-  .navItem {
+  .navigation-item {
     font-size: 1.5rem;
     padding: 20px;
     cursor: pointer;
@@ -94,7 +85,7 @@ nav {
     padding: 20px 40% 20px 40%;
   }
 
-  .navItem:hover {
+  .navigation-item:hover {
     background-color: rgb(52, 46, 46);
   }
 
@@ -106,18 +97,17 @@ nav {
     color: azure;
   }
 
-  .hamburgerLogo {
+  .hamburger-logo {
     display: flex;
   }
 }
 
 @media only screen and (min-width: 1024px) {
-  .hamburgerLogo {
+  .hamburger-logo {
     display: none;
   }
 }
 
-/* Extra big screen devices (1200px and above) */
 @media only screen and (max-width: 1200px) {
   nav {
     min-width: 60%;

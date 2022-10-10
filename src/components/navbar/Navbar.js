@@ -3,6 +3,7 @@ import "./navbar.css";
 import { Link } from "react-scroll";
 import hamburger from "../navbar/square.png";
 import { useRef } from "react";
+import DarkMode from "../darkMode/DarkMode";
 
 function Navbar() {
   const navRef = useRef();
@@ -10,21 +11,22 @@ function Navbar() {
     navRef.current.classList.toggle("toggle");
   };
   return (
-    <div className="navContainer">
+    <div className="navigation-container">
       <h1 className="logo">
         <a href="#">logo</a>
       </h1>
-      <div className="hamburgerLogo">
+      <DarkMode />
+      <div className="hamburger-logo">
         <h1 className="logo2">logo</h1>
         <img
-          className="hamburgerIcon"
+          className="hamburger-icon"
           onClick={showNav}
           src={hamburger}
           alt="menu icon"
         />
       </div>
       <nav ref={navRef}>
-        <li className="navItem">
+        <li className="navigation-item">
           <Link
             className="link"
             to="home"
@@ -37,7 +39,7 @@ function Navbar() {
             Home
           </Link>
         </li>
-        <li className="navItem">
+        <li className="navigation-item">
           <Link
             className="link"
             to="portfolio"
@@ -50,7 +52,7 @@ function Navbar() {
             Portfolio
           </Link>
         </li>
-        <li className="navItem">
+        <li className="navigation-item">
           <Link
             className="link"
             to="about"
@@ -63,7 +65,7 @@ function Navbar() {
             About
           </Link>
         </li>
-        <li className="navItem">
+        <li className="navigation-item">
           <Link
             className="link"
             to="skills"
@@ -76,7 +78,7 @@ function Navbar() {
             Skills
           </Link>
         </li>
-        <li className="navItem">
+        <li className="navigation-item">
           <Link
             className="link"
             to="contact"

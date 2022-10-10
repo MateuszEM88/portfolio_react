@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./App.css";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./components/home/Home";
@@ -9,8 +9,10 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Scroll from "./components/scroll/Scroll";
 
 function App() {
+  const appRef = useRef();
+
   return (
-    <div className="App">
+    <div className="App" ref={appRef}>
       <div className="container">
         <Navbar />
         <Home id="home" />

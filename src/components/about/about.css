@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: space-around;
   background-color: var(--background-light-secondary);
+  color: var(--text-light);
 }
 
 .introduction {

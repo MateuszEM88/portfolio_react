@@ -14,39 +14,39 @@ function Contact() {
       </div>
       <div className="contact-container">
         <div className="communication">
-          <h1 className="commHeader">Links</h1>
-          <div className="linksContainer">
-            <div className="linkDiv email">
+          <h1 className="communication-header">Links</h1>
+          <div className="links-container">
+            <div className="link-div email">
               <img className="icons" src={email} alt="email icon" />
-              <div className="contactDescription">
+              <div className="contact-description">
                 <h4>E-mail</h4>
                 <h3>panocek@gmail.com</h3>
               </div>
             </div>
-            <div className="linkDiv whatsApp">
+            <div className="link-div whatsApp">
               <img className="icons" src={whatsapp} alt="whatsapp icon" />
-              <div className="contactDescription">
+              <div className="contact-description">
                 <h4>WhatsApp</h4>
                 <h3>123-456-789</h3>
               </div>
             </div>
-            <div className="linkDiv messenger">
+            <div className="link-div messenger">
               <img className="icons" src={messenger} alt="messenger icon" />
-              <div className="contactDescription">
+              <div className="contact-description">
                 <h4>Messenger</h4>
                 <h3>Szalony Panocek</h3>
               </div>
             </div>
-            <div className="linkDiv github">
+            <div className="link-div github">
               <img className="icons" src={github} alt="github icon" />
-              <div className="contactDescription">
+              <div className="contact-description">
                 <h4>Github</h4>
                 <h3>www.github.com</h3>
               </div>
             </div>
-            <div className="linkDiv linkedn">
+            <div className="link-div linkedn">
               <img className="icons" src={linkedin} alt="linkedin icon" />
-              <div className="contactDescription">
+              <div className="contact-description">
                 <h4>Linkedin</h4>
                 <h3>www.linkedin.com</h3>
               </div>
@@ -54,26 +54,26 @@ function Contact() {
           </div>
         </div>
         <div className="form">
-          <h1 className="formHeader">Contact form</h1>
+          <h1 className="form-header">Contact form</h1>
           <fieldset className="fieldset">
             <label className="labels" htmlFor="name">
               name
             </label>
             <input
               id="name"
-              className="inputName"
+              className="input-name"
               type="name"
               placeholder="your name"
             />
             <label className="labels" htmlFor="email">
               e-mail
             </label>
-            <input id="email" className="inputEmail" type="email" />
+            <input id="email" className="input-email" type="email" />
             <label className="labels" htmlFor="question">
               question
             </label>
             <textarea id="question" className="message" type="text" />
-            <button className="submitButton" type="submit">
+            <button className="submit-button" type="submit">
               submit
             </button>
           </fieldset>

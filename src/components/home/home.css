@@ -2,7 +2,7 @@
   width: 100%;
   min-height: 600px;
   display: flex;
-
+  color: var(--text-light);
   align-items: center;
   justify-content: center;
   background-color: var(--background-light-secondary);
